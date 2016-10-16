@@ -30,10 +30,10 @@ Now, to set up and use git for this project:
 
 1. Go to https://github.com and register for an account if you haven't, and sign in.
 2. For this project, you will have your own `fork` of the code, so that you can develop it independently and keep your code hosted on `github`.  To do this, click the `fork` button in the top right corner.  Forking this repository creates a clone of it under your own account.  Later on you can merge changes from my fork, and vice versa.
-3. `Clone` this repository to your local machine. DO NOT DOWNLOAD THE ZIP FILE. You can pick up a `github` `git` client [here](https://desktop.github.com/). Continue to steps 3a - 3e if using this client. Otherwise skip to 4 after cloning.
-3a. Click the `+` button in the top right corner.
-3b. Select `clone`.
-3c. Select `learn-to-make-a-chatbot-in-node`.
-3d. Click the checkmark at the bottom
-3e. Select the directory where you want the code to live.  Remember this location.
-4. Open the project in VS Code.
+3. `Clone` this repository to your local machine. DO NOT DOWNLOAD THE ZIP FILE. You can pick up a `github` `git` client [here](https://desktop.github.com/). Continue to steps 4 - 8 if using this client. Otherwise skip to 9 after cloning.
+4. Click the `+` button in the top right corner.
+5. Select `clone`.
+6. Select `learn-to-make-a-chatbot-in-node`.
+7. Click the checkmark at the bottom
+8. Select the directory where you want the code to live.  Remember this location.
+9. Open the project in VS Code.
