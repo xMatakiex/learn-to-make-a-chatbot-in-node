@@ -48,4 +48,19 @@ Now, to set up and use git for this project:
 ### Running the project
 1. Configure your twitch user in the `options` section of `bot.js`. 
 2. run `node bot.js` from the root directory of this project.
-3. After making updates, use `ctrl+c` to close the application, then use `node bot.js` to re-run with the changes.
+3. After making updates, use `ctrl+c` to close the application, then use `node bot.js` to re-run with the changes. (eventually we will automate this.)
+
+### Editing
+Currently there is only one source file to worry about: `bot.js`. 
+
+### More Git
+
+After making code changes, they only exist on your local machine.  
+
+* `Commit` saves your changes to the git repository locally 
+* `Push` pushes your local commits to the remote server (`github` in this case)
+* `Pull` pulls commits from the remote server, in case there are changes there that you do not have (maybe you work on a team, or from multiple machines.)
+* `Branch` creates another branch in your repository.  Very helpful whenever you might be working on multiple features at the same time. 
+* `Merge` can be used to merge branches back together.  This is especially helpful when working with multiple people, or when you want to pull in changes from other forks. 
+
+To make your changes go to `github`, first `commit` your changes, then `push` your code.  There are tons of articles about the semantics of what these do.  Google is your friend.
