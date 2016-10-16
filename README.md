@@ -27,6 +27,7 @@ For the purposes of these exercises, you can use `github`'s `git` client. Though
 * `github` is a website that hosts code bases via `git`.
 
 Now, to set up and use git for this project:
+
 1. Go to https://github.com and register for an account if you haven't, and sign in.
 2. For this project, you will have your own `fork` of the code, so that you can develop it independently and keep your code hosted on `github`.  To do this, click the `fork` button in the top right corner.  Forking this repository creates a clone of it under your own account.  Later on you can merge changes from my fork, and vice versa.
 3. `Clone` this repository to your local machine. DO NOT DOWNLOAD THE ZIP FILE. You can pick up a `github` `git` client [here](https://desktop.github.com/). Continue to steps 3a - 3e if using this client. Otherwise skip to 4 after cloning.
