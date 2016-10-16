@@ -55,6 +55,8 @@ Currently there is only one source file to worry about: `bot.js`.
 
 ### More Git
 
+#### Commands 
+
 After making code changes, they only exist on your local machine.  
 
 * `Commit` saves your changes to the git repository locally 
@@ -63,4 +65,19 @@ After making code changes, they only exist on your local machine.
 * `Branch` creates another branch in your repository.  Very helpful whenever you might be working on multiple features at the same time. 
 * `Merge` can be used to merge branches back together.  This is especially helpful when working with multiple people, or when you want to pull in changes from other forks. 
 
+#### Pushing changes
+
 To make your changes go to `github`, first `commit` your changes, then `push` your code.  There are tons of articles about the semantics of what these do.  Google is your friend.
+
+#### Getting up to date with my fork
+
+To retrieve changes from my fork, you'll need to add my remote as an "upstream" repository. 
+
+1. Right click the repository in the `github` desktop `git` client
+2. Select "open in git shell". 
+3. From there, follow these instructions: https://help.github.com/articles/configuring-a-remote-for-a-fork/
+4. Then follow these instructions: https://help.github.com/articles/syncing-a-fork/ 
+
+#### Getting my fork up to date with yours
+
+To put changes from your fork in to my fork, create a pull request for me to review it. Use google to figure this one out yourself, pleb.
