@@ -1,0 +1,37 @@
+{
+  "name": "learn-to-make-a-chatbot-in-node",
+  "version": "0.0.0",
+  "description": "A set of assignments for learning how to write some node via a twitch chatbot.",
+  "keywords": [
+    "irc",
+    "twitch",
+    "bot",
+    "lib",
+    "library",
+    "stream",
+    "live",
+    "robot",
+    "twitchtv",
+    "twitch.tv",
+    "node",
+    "iojs"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {
+    "tmi.js": "1.1.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "run-bot": "./bin/bot.js"
+  },
+  "directories": {}
+}

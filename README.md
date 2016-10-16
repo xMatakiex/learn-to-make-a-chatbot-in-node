@@ -36,3 +36,16 @@ Now, to set up and use git for this project:
 6. Select `learn-to-make-a-chatbot-in-node`.
 7. Click the checkmark at the bottom
 8. Select the directory where you want the code to live.  Remember this location.
+
+## Project Information 
+
+### Initial setup 
+1. Open up a command prompt
+2. Navigate to your project directory
+3. run `npm install`
+4. Done.
+
+### Running the project
+1. Configure your twitch user in the `options` section of `bot.js`. 
+2. run `node bot.js` from the root directory of this project.
+3. After making updates, use `ctrl+c` to close the application, then use `node bot.js` to re-run with the changes.
