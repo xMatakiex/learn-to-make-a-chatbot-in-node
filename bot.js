@@ -25,8 +25,8 @@ client.on("connected", function (address, port) {
     console.log("Signed in to channels " + client.getChannels());
 });
 
-client.on('chat', function(channel, user, message, self) {
-  console.log("Recieved message '" + message + "' from user " + user['display-name']);
+client.on('chat', function(channel, userstate, message, self) {
+  console.log("Recieved message '" + message + "' from user " + userstate['display-name']);
   if(message === "!ping")
     client.action(channel, "Pong!");
 });
